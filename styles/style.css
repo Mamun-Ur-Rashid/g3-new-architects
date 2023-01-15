@@ -247,9 +247,6 @@ body{
     margin-top: 10px;
 }
 /* our sponsors styles */
-.sponshors-section{
-
-}
 .sponshors{
     justify-content: center;
     align-items: center;
@@ -286,4 +283,75 @@ body{
     text-align: center;
     justify-content: center;
     padding: 40px 410px;
+}
+@media only screen and (max-width: 576px) {
+    .container{
+        width: 40%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav-container .navbar{
+        width: 40%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+    .banner-items .banner-title{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+    }
+    .banner-description .btn{
+        width: 20%;
+        text-align: left;
+        font-size: 10px;
+        justify-content: center;
+        padding-left: 20px;
+        margin-left: 0;
+    }
+    .banner{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+    .banner-img{
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .features-left{
+        grid-template-columns: repeat(1, 1fr);
+        align-items:center;
+        width: 70%;
+    }
+    .features-detailes{
+        flex-direction: column;
+    }
+    .fact-item{
+        flex-direction: column;
+    }
+    .sponshors-company{
+        flex-direction: column;
+        width: 70%;
+    }
+    .sponshors-title{
+        text-align: left;
+    }
+    .sponshors-detailes{
+        text-align: left;
+    }
+    
+
+
+
+    
 }
